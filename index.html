@@ -6,6 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="src/styling.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.45/moment-timezone-with-data-1970-2030.js"></script>
   <title>World-Clock</title>
 </head>
 
@@ -21,25 +24,25 @@
       <option value="">Sofia</option>
     </select>
 
-    <div class="city">
+    <div class="city" id="first-city">
       <div>
         <h2>Los Angeles 🇺🇸 </h2>
-        <div class="date">September 19th 2024 </div>
+        <div class="date"></div>
       </div>
-      <div class="time">11:44 <small>PM</small></div>
+      <div class="time"></div>
     </div>
 
-    <div class="city">
+    <div class="city" id="second-city">
       <div>
         <h2>Sydney 🇦🇺 </h2>
-        <div class="date">September 19th 2024 </div>
+        <div class="date"></div>
       </div>
-      <div class="time">11:44 <small>PM</small></div>
+      <div class="time"></div>
     </div>
 
     <br />
     <footer>
-      This project was coded by Charllotte Blackwell-Maleshkov and is open sourced on <a
+      This project was coded by <strong>Charllotte Blackwell-Maleshkov</strong> and is open sourced on <a
         href="https://github.com/CharllieeBM" target="_blank">Github</a> and is hosted with <a
         href="https://world-clock101.netlify.app" target="_blank">Netlify</a>.
     </footer>
